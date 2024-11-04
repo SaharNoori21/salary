@@ -1,0 +1,67 @@
+@font-face {
+	font-family: "IranYekanBold";
+	src: url("../font/eot/IRANYekanFN-Bold.eot");
+	src: local("IRANYekanFN-Bold"),
+		url("../font/eot/IRANYekanFN-Bold.eot?#iefix") format("embedded-opentype"),
+		url("../font/woff2/IRANYekanFN-Bold.woff2") format("woff2"),
+		url("../font/woff/IRANYekanFN-Bold.woff") format("woff"),
+		url("../font/ttf/IRANYekanFN-Bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "IranYekanRegular";
+	src: url("../font/eot/IRANYekanFN-Regular.eot");
+	src: local("IRANYekanFN-Regular"),
+		url("../font/eot/IRANYekanFN-Regular.eot?#iefix") format("embedded-opentype"),
+		url("../font/woff2/IRANYekanFN-Regular.woff2") format("woff2"),
+		url("../font/woff/IRANYekanFN-Regular.woff") format("woff"),
+		url("../font/ttf/IRANYekanFN-Regular.ttf") format("truetype");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: IranYekanRegular;
+	direction: rtl;
+}
+
+body{
+	background-image: url(../pics/image.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%
+}
+
+div.wrapper>div{
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	color: #ffffff
+}
+
+div.wrapper>div.form{
+	background-color: rgba(0, 0, 0, 0.5) !important
+}
+
+div.wrapper>div.form>form>input{
+	border-color: #ffc312 !important
+}
+ 
+div.wrapper>div.form>form>div.footer>input{
+	background-color: #ffc312;
+	justify-self: center !important;
+	align-self: center !important;
+}
+
+div.wrapper>div.form>form>div.footer>input:hover{
+	background-color: #c4a64d;
+}
+
+div.wrapper>div.form>form>div.footer>select{
+	border-color: #ffc312
+}
+
+/*@tailwind base;*/
+@tailwind components;
+@tailwind utilities;
+
